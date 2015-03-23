@@ -1,0 +1,19 @@
+{
+  "name": "Polymix",
+  "version": "0.0.0",
+  "homepage": "http://web.xtity.com",
+  "authors": [
+    "xtity"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer",
+    "github-card": "pazguille/github-card"
+  }
+}

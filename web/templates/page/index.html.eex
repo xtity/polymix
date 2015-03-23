@@ -1,6 +1,8 @@
 <div class="jumbotron">
-  <h2>Welcome to Phoenix!</h2>
-  <p class="lead">Phoenix is an Elixir Web Framework targeting full-featured, fault tolerant applications with realtime functionality.</p>
+  <h2>Author card by Polymer</h2>
+  <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+  <link rel="import" href="bower_components/github-card/webcomponent/github-card.html">
+  <github-card user="xtity"></github-card>
 </div>
 
 <div class="row marketing">
