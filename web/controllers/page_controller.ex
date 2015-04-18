@@ -4,6 +4,11 @@ defmodule Polymix.PageController do
   plug :action
 
   def index(conn, _params) do
-    render conn, "index.html"
+    case Application.get_env(:polymix, :Polymix.Endpoint)[:env] do
+      :prod ->
+        render conn, "build_index.html"
+      _ ->
+        render conn, "index.html"
+    end
   end
 end

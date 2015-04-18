@@ -23,3 +23,4 @@ erl_crash.dump
 erl_crash.dump
 *.sublime-workspace
 bower_components
+rel
